@@ -1,9 +1,11 @@
 import Image from 'next/image'
-
+import Hero from '../components/Hero'
+import MainProjects from '../components/MainProjects'
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     <h1>portfolio</h1>
+    <main >
+     <Hero/>
+     <MainProjects/>
     </main>
   )
 }

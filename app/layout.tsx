@@ -1,10 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Providers from "@/app/providers";
-const inter = Inter({ subsets: ["latin"] });
+const inter = Poppins({ subsets: ["latin"] ,display:'swap',weight:'400'});
 
 export const metadata: Metadata = {
   title: "Dikshant Agarwal - Front-end Developer",
