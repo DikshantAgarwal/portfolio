@@ -7,7 +7,7 @@ import {BsArrow90DegUp} from 'react-icons/Bs'
 export default function Hero() {
   return (
     <div className="w-full flex justify-between p-8 dark:bg-slate-800">
-      <div className="flex flex-col sm:text-left text-center">
+      <div className="flex flex-col sm:text-left text-center mx-auto">
         <RoughNotationGroup show={true}>
           <Highlight color="red">
             <h1 className="text-5xl sm:text-8xl mb-4   font-semibold text-gray-800 dark:text-gray-200" >Developer.</h1>
@@ -23,7 +23,7 @@ export default function Hero() {
 
       <div className="hidden lg:inline-block">
         <Image
-        className="rounded-md"
+         className="rounded-lg"
           src={profileImage}
           alt="portfolio image"
           width={500}

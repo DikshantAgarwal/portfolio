@@ -5,7 +5,8 @@ import {FaLinkedin} from 'react-icons/Fa'
 import {ThemeButton} from '@/components/ThemeButton'
 export default function Header() {
   return (
-    <nav className='flex flex-row justify-between items-start py-10 px-5 sm:py-20 sm:px-10 flex-wrap dark:bg-slate-800'>
+    <nav className='dark:bg-gray-800'>
+        <div className='flex flex-row mx-auto max-w-6xl justify-between items-start py-10 px-5 sm:py-20 sm:px-10 flex-wrap'>
         <div>
            <h2 className='text-xl font-medium'>Dikshant Agarwal</h2>
             <span className='text-gray-600'>Front-End Developer</span>
@@ -21,6 +22,7 @@ export default function Header() {
             <FiGithub/>
             <FaLinkedin/> 
             <ThemeButton/>
+        </div>
         </div>
     </nav>
   )
