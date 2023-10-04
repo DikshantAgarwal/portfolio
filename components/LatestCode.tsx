@@ -11,7 +11,7 @@ export default async function LatestCode() {
     <section className="bg-gray-100  -mt-44 dark:bg-gray-900 mx-auto">
       <div className="max-w-6xl mx-auto">
       <header className="flex flex-col justify-between items-center md:flex-row pt-40 mx-20 my-10 md:my-20">
-        <h1 className="text-6xl md:text-9xl sm:text-white text-gray-500 text-center font-bol max-w-lg dark:text-gray-400">Latest Code</h1>
+        <h1 className="text-6xl md:text-9xl sm:text-white text-gray-500 text-center font-bold max-w-lg dark:text-gray-800">Latest Code</h1>
         <Link href="https://github.com/DikshantAgarwal" className="bg-white font-semibold text-black rounded-md px-10 py-5 mt-10 sm:mt-0 flex justify-center  items-center gap-2 ">  
          <BsArrowUpRightSquare size={15}/>
           <p>View Github</p>

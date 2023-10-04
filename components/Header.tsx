@@ -8,11 +8,13 @@ export default function Header() {
     <nav className='dark:bg-gray-800'>
         <div className='flex flex-row mx-auto max-w-6xl justify-between items-start py-10 px-5 sm:py-20 sm:px-10 flex-wrap'>
         <div>
-           <h2 className='text-xl font-medium'>Dikshant Agarwal</h2>
+           <h2 className='text-xl font-medium'>
+            <Link href='/'>Dikshant Agarwal</Link></h2>
             <span className='text-gray-600'>Front-End Developer</span>
+            
         </div>
         <div className='flex space-x-8 order-last mt-4 sm:order-none sm:mt-0'>
-            <Link href='/About'>About</Link>
+            <Link href='/aboutMe'>About</Link>
             <Link href='/Experience'>Experience</Link>
             <Link href='/Projects'>Projects</Link>
             <Link href='/Contacts'>Contacts</Link>
