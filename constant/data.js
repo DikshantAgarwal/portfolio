@@ -1,4 +1,4 @@
-export const myData={
+export const myData = {
   githubUsername: "Dikshant Agarwal",
   name: "Dikshant Agarwal",
   designation: "Front-End Developer",
@@ -6,16 +6,13 @@ export const myData={
   email: "dikshantagarwal234@gmail.com",
   phone: "+91 8941845815",
   address: "Bengaluru, Karnatka, India.",
-  projects: [
-
-  ],
+  projects: [],
   about: {
-    title:
-      "I'm a Front-End developer that loves building web applications.",
+    title: "I'm a Front-End developer that loves building web applications.",
     description: [
       "I working in Corporate job from  almost last 8 years, but my interest for web development grows in last 3 years. I started learning Html, CSS, javascript and Framework like React and switched to Web Development. So far journey has been roller coaster ride with fare share of failure and success but I am continuing to grow and eager to learn.",
       "Currently I am learning Next.js and its rich feature like file-system based route, server-side rendering etc.",
-      "I consider myself intermediate Developer with fare knowledge on javascript and framework like React."
+      "I consider myself intermediate Developer with fare knowledge on javascript and framework like React.",
     ],
     currentProject: "",
     currentProjectUrl: "",
@@ -67,10 +64,11 @@ export const myData={
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: [
-    {linkedin: "https://www.linkedin.com/in/dikshant-agarwal-78a201a5/"},
-    {github: "https://github.com/DikshantAgarwal"},
-    {instagram: "https://www.instagram.com/dikshantagarwal/"},
-    {twitter: "https://twitter.com/DiKsHaNt_dikki"},
-    {facebook: "https://facebook.com/"},
+    { linkedin: "https://www.linkedin.com/in/dikshant-agarwal-78a201a5/" },
+    { github: "https://github.com/DikshantAgarwal" },
+    { instagram: "https://www.instagram.com/dikshantagarwal/" },
+    { twitter: "https://twitter.com/DiKsHaNt_dikki" },
+    { facebook: "https://facebook.com/" },
   ],
-}
+  pages: ["aboutMe", "experience", "projects", "contacts"],
+};
