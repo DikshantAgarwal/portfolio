@@ -6,9 +6,40 @@ export const myData = {
   email: "dikshantagarwal234@gmail.com",
   phone: "+91 8941845815",
   address: "Bengaluru, Karnatka, India.",
-  projects: [],
+  projects: [
+    {
+    id:1,
+    title:"Swaad.",
+    link:"https://main--swaad14.netlify.app/",
+    imgUrl:'/Swaad.png'
+  },
+    {
+    id:2,
+    title:"Swaad.",
+    link:"https://main--swaad14.netlify.app/",
+    imgUrl:'/Swaad.png'
+  },
+    {
+    id:3,
+    title:"Swaad.",
+    link:"https://main--swaad14.netlify.app/",
+    imgUrl:'/Swaad.png'
+  },
+    {
+    id:4,
+    title:"Swaad.",
+    link:"https://main--swaad14.netlify.app/",
+    imgUrl:'/Swaad.png'
+  },
+    {
+    id:5,
+    title:"Swaad.",
+    link:"https://main--swaad14.netlify.app/",
+    imgUrl:'/Swaad.png'
+  },
+],
   about: {
-    title: "I'm a Front-End developer that loves building web applications.",
+    title: "I'm a Front-End developer who loves building products and web development. Interested to work with like-minded people to build on my current skills set.",
     description: [
       "I working in Corporate job from  almost last 8 years, but my interest for web development grows in last 3 years. I started learning Html, CSS, javascript and Framework like React and switched to Web Development. So far journey has been roller coaster ride with fare share of failure and success but I am continuing to grow and eager to learn.",
       "Currently I am learning Next.js and its rich feature like file-system based route, server-side rendering etc.",

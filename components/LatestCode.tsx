@@ -1,3 +1,4 @@
+
 import React from "react";
 import Link from 'next/link';
 import {BsArrowUpRightSquare} from 'react-icons/Bs';
@@ -8,7 +9,7 @@ export default async function LatestCode() {
   const latestRepos = await getLatestRepos(token);
 
   return (
-    <section className="bg-gray-100  -mt-44 dark:bg-gray-900 mx-auto">
+    <section className="bg-gray-100  -mt-44 dark:bg-gray-900 mx-auto pb-40">
       <div className="max-w-6xl mx-auto">
       <header className="flex flex-col justify-between items-center md:flex-row pt-40 mx-20 my-10 md:my-20">
         <h1 className="text-6xl md:text-9xl sm:text-white text-gray-500 text-center font-bold max-w-lg dark:text-gray-800">Latest Code</h1>
@@ -21,7 +22,7 @@ export default async function LatestCode() {
       
       <div className="grid grid-col-1 my-20 sm:grid-cols-2 lg:grid-cols-3 mx-20 md:-mt-32 gap-8">
         {
-          latestRepos.map((repo:{id:number,name:string, clone_url:string,description:string})=>{
+          latestRepos && latestRepos.map((repo:{id:number,name:string, clone_url:string,description:string})=>{
             return(
               <div key ={repo.id}className="p-4 rounded-lg  mb-4">
                   <h1 className="font-semibold dark:text-white text">{repo.name}</h1>
